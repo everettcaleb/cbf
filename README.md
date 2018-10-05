@@ -1,4 +1,10 @@
 # Counting Bloom Filter (CBF)
+
+[![Build Status](https://travis-ci.com/everettcaleb/cbf.svg?branch=master)](https://travis-ci.com/everettcaleb/cbf)
+[![Coverage Status](https://coveralls.io/repos/github/everettcaleb/cbf/badge.svg?branch=master)](https://coveralls.io/github/everettcaleb/cbf?branch=master)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/56228e5748a3493e89a1296dc2c3d2f5)](https://www.codacy.com/app/everettcaleb/cbf?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=everettcaleb/cbf&amp;utm_campaign=Badge_Grade)
+[![License](https://img.shields.io/github/license/mashape/apistatus.svg)](LICENSE)
+
 This is a project that implements a CBF in Go that uses 1-byte per entry. It uses the following hash functions, but could be re-written easily to use any hash function(s):
 
 - Adler32 (from [hash/adler32](https://golang.org/pkg/hash/adler32/))
