@@ -7,9 +7,9 @@
 
 This is a project that implements a CBF in Go that uses 1-byte per entry. It uses the following hash functions, but could be re-written easily to use any hash function(s):
 
-- Adler32 (from [hash/adler32](https://golang.org/pkg/hash/adler32/))
-- FNV32 (from [hash/fnv](https://golang.org/pkg/hash/fnv/))
-- Murmur3-32 (from [github.com/spaolacci/murmur3](https://github.com/spaolacci/murmur3))
+  - Adler32 (from [hash/adler32](https://golang.org/pkg/hash/adler32/))
+  - FNV32 (from [hash/fnv](https://golang.org/pkg/hash/fnv/))
+  - Murmur3-32 (from [github.com/spaolacci/murmur3](https://github.com/spaolacci/murmur3))
 
 ## Usage
 Here's the interface:
